@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    
+    <form method="POST" action="#" onsubmit="pass (e)">
+    <table>
+       <td>
+         <label for ='nom'>Nom</label>
+       </td>
+       <td>
+         <input type="text" name="Nom" id="nom" required = 'required'>
+        </td>
+    </table>
+
+    <table>
+        <td>
+        <label for ='prenom'>Prenom</label>
+        </td>
+        <td>
+        <input type="text" name="prenom" id="prenom" required = 'required'>
+        </td>
+    </table>
+
+    <table>
+        <td>
+            <label for ='date'>Date et Lieu de naissance</label>
+        </td>
+        <td>
+            <input type="date" name="date" id="date" required = 'required'>
+        
+             a <input type="text" name="lieu" id="date" required = 'required'>
+        </td>
+    </table>
+
+    <table>
+        <td>
+          <label for ='cin'>N CIN</label>
+        </td>
+        <td>
+          <input type="text" name="cin" id="cin" required = 'required' >
+        </td>
+    </table>
+
+    <div><label>sexe </label>
+        <td>
+        <input type="radio" id="masculin"
+        name="sexe" value="masculin">
+       <span for="masculin">Masculin</span></td>
+       <td>
+       <input type="radio" id="feminin"
+        name="sexe" value="feminin">
+       <span for="feminin">Feminin</span></td>
+       </div>
+
+    <div><label>Situation Matirmoniale</label>
+    <td>
+    <input type="radio" id="Choice1"
+     name="contact" value="Celibtaire">
+    <span for="Choice1">Celibtaire</span>
+    </td>
+    <td>
+    <input type="radio" id="Choice2"
+     name="contact" value="marie">
+    <span for="Choice2">Marié(e)</span>
+    </td>
+    <td>
+    <input type="radio" id="Choice3"
+     name="contact" value="divelorcee">
+    <span for="Choice3">Divelorcé(e)</span>
+    </td>
+  </div>
+ 
+
+    <table>
+        <td>
+          <label for ='email'>Email</label></td>
+        <td>
+          <input type="email" name="email" id="email" required = 'required'></td>
+        <span id="aideCourriel"></span>
+    </table>
+
+    <table>
+        <td>
+          <label for ='telephone'>Telephone</label>
+        </td>
+        <td>
+          <input type="text"  maxlength="12" name="telephone" id="telephone" required = 'required'>
+        </td>
+    </table>
+
+    <table> 
+        <td>
+          <label for ='comment'>Cadre</label>
+        </td>
+        <td>
+        <select name="cars">
+            <option value="volvo">Administratif</option>
+            <option value="saab">Etudiante</option>
+            <option value="fiat">Cadre</option>
+        </select>        
+        </td>
+    </table>
+
+    <table> 
+        <td>
+           <label for ='comment'>Service</label>
+        </td>
+        <td>
+            <select name="cars">
+                <option value="volvo">Marketing</option>
+                <option value="saab">informatique</option>
+                <option value="fiat">comptabilite</option>
+            </select>        
+        </td>
+    </table>
+
+    <div> 
+        <input type="submit" value="submit" id="test">
+    </div>
+
+    <div>
+        <INPUT TYPE="reset"  VALUE="Annuler" id="text">
+    </div>
+    </form>
+    
+</body>
+</html>
